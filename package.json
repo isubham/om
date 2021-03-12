@@ -1,0 +1,26 @@
+{
+  "name": "om",
+  "version": "1.0.0",
+  "description": "functional programming language inspired by lisp",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha 'tests/*/*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/isubham/om.git"
+  },
+  "keywords": [
+    "fp",
+    "lisp",
+    "om"
+  ],
+  "author": "subham kumar",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.3.3"
+  }
+}
